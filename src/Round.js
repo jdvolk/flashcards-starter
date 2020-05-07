@@ -25,6 +25,8 @@ class Round {
     if (isCorrect === 'incorrect') {
       let badGuess = currentTurn.returnCard();
       this.incorrectGuesses.push(badGuess.id);
+    } else {
+      
     }
     // this.deck.splice(0, 1);
     this.turnCount ++;
@@ -40,11 +42,10 @@ class Round {
   }
   endRound() {
   // endRound: method that prints the following to the console: ‘** Round over! ** You answered <>% of the questions correctly!’
-  let resultPercentage = this.calculatePercentageCorrect();
-  let resultMessage = `** Round over! ** You answered ${resultPercentage}% of the questions correctly!`
-  console.log(resultMessage);
-  return resultMessage;
-  
+    let resultPercentage = this.calculatePercentageCorrect();
+    let resultMessage = `** Round over! ** You answered ${resultPercentage}% of the questions correctly!`
+    console.log(resultMessage);
+    return resultMessage;
   }
 
 }
