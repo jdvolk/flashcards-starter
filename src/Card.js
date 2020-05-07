@@ -1,7 +1,3 @@
-/*
-const card = new Card(1, 'What is Robbie\'s favorite animal',
- ['sea otter', 'pug', 'capybara'], 'sea otter');
-*/
 class Card {
   constructor(id, question, answers, correctAnswer) {
     this.id = id;
