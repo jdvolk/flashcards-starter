@@ -3,14 +3,12 @@ const expect = chai.expect;
 const assert = chai.assert;
 
 const Card = require('../src/Card');
-const Turn = require('../src/Turn');
 const Deck = require('../src/Deck');
 const Round = require('../src/Round');
 
 describe('Round', () => {
   
   it('should be a function', () => {
-    const round = new Round();
     expect(Round).to.be.a('function');
   });
 
@@ -130,7 +128,5 @@ describe('Round', () => {
     let roundResult = round.endRound();
 
     assert.equal(roundResult, "** Round over! ** You answered 67% of the questions correctly!");
-
   });
-
 });
