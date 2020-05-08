@@ -16,6 +16,7 @@ ___
 ## Project Board
 [Trello Board](https://trello.com/b/1Yxo7TtX/flash-card-game)
 
+![Trello Project Board](https://lh3.googleusercontent.com/du-JrI2dx6vVbnyG_mX5oMHFC5J2G7rm-23M7GoYRdvc2YMH4M1fBWZJNUKaDh0vhfj_SIJ_sV9yFv9Pg7_ULFeK4nsrO0PcBVMWtvkO4-pUEgHqgqxAsKScWDDXJiVh0Z1GWzXocsWkYgVCtAZZkpGakYGfW8zm6mR_P5vR6jalt6oBCaHrS03AQ46gLCcAibDpbZ7onQOWR308HVLqNJwnkUKZ6eEd2pnPg2_Dh1HQ5hBmesMELKYHQyuHt7JxcfhxkDspCO_AAu7fvYVu7fOpE4OYlnayZMZUAMP-cg9jmGn-1mKL7ybSbA3Xui5uy5cAVdNZ_1CBN7U08CidVA_zuVLGhrtaQgftYCiCSrHYIM9E4L90m_qypCdirk15SVPcVTIBpzKQMMkE5RMdjzUZdWPzCQzpK3gaseSQM-b7mPgvL3_UulVu3owFdW2CMh8ZDRDrs59CnT4H_PGWp33xzX1TGQgrl2CgCobot4MRsZ_NJVVL3Ut4L1A-uJTabU-kPf1uTujEUFyCJLzVRgRSvkWRoHh1qExy1YqDH1ciIPOFtr0XdMEBgFLETWgagx4dFJNRCzPQyeDnMRrQrJahz0SGEeG-r0Bke58pK6yhnjkI_EdLZLfBaEl5kyrvrcEYJ8dZbZabXyfBhWSAoG4MFNrjf9N0WqF1OQsqJFaqZ95mp9BXivJ7jTiI=w2870-h1360-no?authuser=0v)
 
 ___
 ## Setup
@@ -29,19 +30,6 @@ npm install
 Run `node index.js` from the root of the project and start playing the game!
 ___
 ## Example of Features
-![flash game example gif](https://giphy.com/gifs/jp36kG9e2dTKMqYdyD)
-
-## How to View Your Code in Action
-
-Once you are working through Iteration 3, you will want to start your server to test your functionality.
-In the terminal, run:
-
-```bash
-node index.js
-```
-
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
-
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
+![flash game example gif](https://media.giphy.com/media/jp36kG9e2dTKMqYdyD/source.gif)
 
 ---
