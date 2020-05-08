@@ -8,9 +8,11 @@ class Round {
     this.deck = deck;
     this.incorrectGuesses = [];
   }
+
   returnCurrentCard() {
     return this.deck.cards[this.turnCount]
   }
+
   takeTurn(guess) {
     if (guess === undefined) {
       return "please make a guess";
@@ -25,11 +27,13 @@ class Round {
     this.turnCount ++;
     return isCorrect
   }
+
   calculatePercentageCorrect() {
-   let amountOfIncorrect = this.incorrectGuesses.length;
-   let percentageIncorrect = Math.floor(amountOfIncorrect * 100/this.turnCount);
-   return 100 - percentageIncorrect;
+    let amountOfIncorrect = this.incorrectGuesses.length;
+    let percentageIncorrect = Math.floor(amountOfIncorrect * 100 / this.turnCount);
+    return 100 - percentageIncorrect;
   }
+
   endRound() {
     let resultPercentage = this.calculatePercentageCorrect();
     let resultMessage = `** Round over! ** You answered ${resultPercentage}% of the questions correctly!`
